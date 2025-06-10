@@ -1,0 +1,14 @@
+name: Disable workflow
+
+on:
+    push:
+      branches: [ main ]
+
+jobs:
+  disbale:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Cspatel
+        run: echo "disable workflow"
+    
